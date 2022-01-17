@@ -1,18 +1,18 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: frontend-deployment
+  name: front-deployment
   labels:
-    app: frontend
+    app: frontendlab2mingeso
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: frontend
+      app: frontendlab2mingeso
   template:
     metadata:
       labels:
-        app: frontend
+        app: frontendlab2mingeso
     spec:
       containers:
         - name: frontend
