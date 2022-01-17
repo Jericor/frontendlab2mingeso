@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: backend
-          image: lecheenpolvo/backprueba
+          image: miige/backend
           imagePullPolicy: Always
           ports:
             - name: http
