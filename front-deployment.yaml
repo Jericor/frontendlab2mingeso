@@ -3,16 +3,16 @@ kind: Deployment
 metadata:
   name: front-deployment
   labels:
-    app: frontendlab2mingeso
+    app: frontend
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: frontendlab2mingeso
+      app: frontend
   template:
     metadata:
       labels:
-        app: frontendlab2mingeso
+        app: frontend
     spec:
       containers:
         - name: frontend
