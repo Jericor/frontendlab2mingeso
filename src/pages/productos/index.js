@@ -157,7 +157,7 @@ export default class Productos extends Component {
       <div>
         <Navbar expand="lg" variant="light" bg="light">
         <Container>
-        <Navbar.Brand href="http://161.35.187.91:32000/home">Volver al inicio</Navbar.Brand>
+        <Navbar.Brand href="http://161.35.187.91:3000/home">Volver al inicio</Navbar.Brand>
         <h1 > Productos </h1>
         <AñadirProductos></AñadirProductos>
         </Container>
