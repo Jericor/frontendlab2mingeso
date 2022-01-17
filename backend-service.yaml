@@ -3,11 +3,11 @@ kind: Service
 metadata:
   name: localhost
   labels:
-    app: backendlab2mingeso
+    app: backend
 spec:
   type: LoadBalancer
   selector:
-    app: backendlab2mingeso
+    app: backend
   ports:
     - name: http
       protocol: TCP
