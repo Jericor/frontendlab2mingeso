@@ -3,16 +3,16 @@ kind: Deployment
 metadata:
   name: back-deployment
   labels:
-    app: backendlab2mingeso
+    app: backend
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: backendlab2mingeso
+      app: backend
   template:
     metadata:
       labels:
-        app: backendlab2mingeso
+        app: backend
     spec:
       containers:
         - name: backend
